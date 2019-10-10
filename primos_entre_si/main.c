@@ -3,26 +3,25 @@
 
 int main()
 {
-    int m=0,n=0,resultado1=0;
-    printf("digite os dois numeros a serem analisados\n");
+    int m=0,n=0,resultado1=0,resultado2=0;
     scanf("%d", &m);
     scanf("%d", &n);
 
-    if(m<1 || m>1000 || n<1 || n>1000){
-        printf("o m e o n devem estar entre 1 e 1000\n");
-    }
-
-     for (int i = 3; i < m; i++) {
+     for (int i = 2; i < m; i++) {
         if (m % i == 0) {
            resultado1++;
         }
  }
-
- if (resultado1 == 0){
-    printf("%d eh um numero primo\n", m);
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) {
+           resultado2++;
+        }
+ }
+ if(resultado1 == 0 && resultado2 == 0){
+    printf("Primos entre si\n");
  }
  else{
-    printf("%d não eh um numero primo\n", m);
+    printf("Não\n");
  }
     return 0;
 }
