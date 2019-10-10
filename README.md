@@ -1,6 +1,6 @@
 # MCC_UFU
 Repositório criado para compartilhar códigos da matéria de Matemática para ciência da computação, do curso de Sistemas de Informação da Universidade Federal de Uberlândia
-Esta matéria envolve boa parte dos fundamentos de lógica e de matemática discreta.
+Esta matéria envolve boa parte dos fundamentos de lógica e da matemática discreta.
 <!DOCTYPE html>
 <html>
 <head>
