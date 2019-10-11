@@ -13,10 +13,10 @@ int main()
  }
 printf("temos %d divisoes com resto 0\n", acm);
 if(acm == 2) {
-    printf("%d NUMERO PRIMO\n",n);
+    printf("%d = NUMERO PRIMO\n",n);
  }
 else{
-    printf("%d NUMERO COMPOSTO\n", n);
+    printf("%d = NUMERO COMPOSTO\n", n);
 }
     return 0;
 }
