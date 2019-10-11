@@ -4,7 +4,6 @@ Esta matéria envolve boa parte dos fundamentos de lógica e da matemática disc
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
   <h1>Welcome to MCC repository</h1>
   <h2>have a nice tour</h2>
   <img src="https://media.giphy.com/media/BmmfETghGOPrW/giphy.gif" />
