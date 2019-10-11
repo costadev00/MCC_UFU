@@ -1,27 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int main()
 {
-    int m=0,n=0,resultado1=0,resultado2=0;
-    scanf("%d", &m);
+    int n=0,acm=0;
     scanf("%d", &n);
 
-     for (int i = 2; i < m; i++) {
-        if (m % i == 0) {
-           resultado1++;
-        }
- }
-    for (int i = 2; i < n; i++) {
+     for (int i = 1; i <= n; i++) {
         if (n % i == 0) {
-           resultado2++;
+           acm++;
         }
+        printf("%d/%d tem resto = %d\n",n, i, n%i);
  }
- if(resultado1 == 0 && resultado2 == 0){
-    printf("Primos entre si\n");
+printf("temos %d divisoes com resto 0\n", acm);
+if(acm == 2) {
+    printf("%d NUMERO PRIMO\n",n);
  }
- else{
-    printf("Não\n");
- }
+else{
+    printf("%d NUMERO COMPOSTO\n", n);
+}
     return 0;
 }
