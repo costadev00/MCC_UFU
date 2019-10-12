@@ -4,10 +4,10 @@
 int main()
 {
     int cripto=0,decisao=0;
-    char nome[61];
-    printf ("Digite a frase a ser criptografada:\n");
+    char nome[100];
+    printf ("Digite a sua frase:\n");
     scanf("%[^\n]",nome);
-    printf("Digite o tamanho da sua criptografia:\n");
+    printf("Digite a sua chave:\n");
     scanf("%d",&cripto);
 
     for(int i=0; nome[i] != '\0'; i++){
