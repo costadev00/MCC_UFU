@@ -1,25 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <math.h>
 int main()
 {
-    int n=0, x=0, resto=0;
+    int n=0,acm=1;
     scanf("%d", &n);
 
-    for (int i=1; i<=n; i++){
-        x = n%i;
-        if(x == 0){
-            resto++;
+     for (int i = 2; i <= sqrt(n) && acm !=0; i++) {
+        printf("ACM = %d\n", acm);
+        if (n % i != 0) {
+           acm = 1;
+        }else{
+            acm = 0;
         }
-        printf("%d\n",x);
-    }
-    if(resto == 2){
-        printf("eh primo\n");
-    }
+ }
+    printf("temos %d divisoes com resto 0\n", acm);
+    if(acm == 1) {
+        printf("%d NUMERO PRIMO\n",n);
+     }
     else{
-        printf("nao\n");
+        printf("%d NUMERO COMPOSTO\n", n);
     }
-
-    printf("%d eh a quantidade de restos", resto);
     return 0;
 }
