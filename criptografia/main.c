@@ -4,24 +4,24 @@
 int main()
 {
     int cripto=0,decisao=0;
-    char nome[100];
+    char frase[100];
     printf ("Digite a sua frase:\n");
-    scanf("%[^\n]",nome);
+    scanf("%[^\n]",frase);
     printf("Digite a sua chave:\n");
     scanf("%d",&cripto);
 
-    for(int i=0; nome[i] != '\0'; i++){
-        nome[i] = nome[i] +cripto;
-        printf("%c", nome[i]);
+    for(int i=0; frase[i] != '\0'; i++){
+        frase[i] = frase[i] +cripto;
+        printf("%c", frase[i]);
     }
         printf("\n");
         printf("digite 0 para sair e 1 para descriptografar\n");
         scanf("%d", &decisao);
         printf("\n");
     if(decisao == 1){
-            for(int i=0; nome[i] != '\0'; i++){
-            nome[i] = nome[i] -cripto;
-            printf("%c", nome[i]);
+            for(int i=0; frase[i] != '\0'; i++){
+            frase[i] = frase[i] -cripto;
+            printf("%c", frase[i]);
     }
     return 0;
 }
