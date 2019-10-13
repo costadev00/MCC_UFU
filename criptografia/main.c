@@ -12,8 +12,8 @@ int main()
 
     for(int i=0; frase[i] != '\0'; i++){
         frase[i] = frase[i] +cripto;
-        printf("%c", frase[i]);
     }
+        printf("%s", frase);
         printf("\n");
         printf("digite 0 para sair e 1 para descriptografar\n");
         scanf("%d", &decisao);
@@ -21,8 +21,8 @@ int main()
     if(decisao == 1){
             for(int i=0; frase[i] != '\0'; i++){
             frase[i] = frase[i] -cripto;
-            printf("%c", frase[i]);
     }
+        printf("%s", frase);
     return 0;
 }
     }
