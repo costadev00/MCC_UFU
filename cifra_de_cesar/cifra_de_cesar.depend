@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1570931686 source:c:\users\mathe\mcc_ufu\cifra_de_cesar\main.c
+	<stdio.h>
+	<stdlib.h>
+
