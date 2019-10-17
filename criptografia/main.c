@@ -20,7 +20,8 @@ int main()
 
         printf("\n");
         while(decisao !=0 && decisao != 1){
-        printf("digite 1 para descriptografar e 0 para sair \n");            scanf("%d", &decisao);
+        printf("digite 1 para descriptografar e 0 para sair \n");
+        scanf("%d", &decisao);
         }
 
         if(decisao == 1){

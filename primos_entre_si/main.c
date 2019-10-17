@@ -2,21 +2,23 @@
 #include <stdlib.h>
 int main()
 {
-    int n=0,acm=0;
-    scanf("%d", &n);
+    int a, b, c;
 
-     for (int i = 1; i <= n; i++) {
-        if (n % i == 0) {
-           acm++;
-        }
-        printf("%d/%d tem resto = %d\n",n, i, n%i);
- }
-printf("temos %d divisoes com resto 0\n", acm);
-if(acm == 2) {
-    printf("%d = NUMERO PRIMO\n",n);
- }
-else{
-    printf("%d = NUMERO COMPOSTO\n", n);
+    scanf("%d",&a);
+    scanf("%d",&b);
+    do{
+    c = a%b;
+    if(c != 0){
+        a = b;
+        b = c;
+        printf("b = %d\n", b);
+    }
+}while(c!=0);
+
+if(b==1){
+printf("Primos entre si\n");
 }
-    return 0;
+else{
+    printf("Nao\n",b);
+}
 }

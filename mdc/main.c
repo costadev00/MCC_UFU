@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+//algoritmo de euclides
 int main()
 {
     int a, b, c;
@@ -13,5 +14,6 @@ int main()
         b = c;
     }
 }while(c!=0);
-    printf("%d\n", b);
+    printf("MDC = %d\n", b);
+
 }
