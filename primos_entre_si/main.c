@@ -3,9 +3,9 @@
 int main()
 {
     int a, b, c;
-
     scanf("%d",&a);
     scanf("%d",&b);
+    if(a!=0 || b!=0){
     do{
     c = a%b;
     if(c != 0){
@@ -21,4 +21,5 @@ printf("Primos entre si\n");
 else{
     printf("Nao\n",b);
 }
+    }
 }
