@@ -4,7 +4,7 @@
  //y=(x+z)mod 123
 int main() {
   int cripto = 1, decisao;
-  char frase[100], espaco[100];
+  char frase[100];
   printf("Digite a sua frase:\n");
   scanf("%[^\n]", frase);
   printf("Digite a sua chave:\n");
