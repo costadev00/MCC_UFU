@@ -5,11 +5,14 @@ int main()
 {
     int n;
     double resultado=1;
-    printf("DIGITE O VALOR A SER FATORIADO\n");
+
+    printf("DIGITE UM NUMERO:\n");
     scanf("%d",&n);
+
     for(int i = n; i>0;i--){
         resultado = resultado * i;
     }
-    printf("FATORIAL DE %d = %.1lf\n",n, resultado);
-    return 0;
-}
+
+    printf("RESULTADO DA SUBTRACAO:= %.0lf\n",resultado);
+
+    }
