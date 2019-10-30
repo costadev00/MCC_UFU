@@ -13,6 +13,6 @@ int main()
         resultado = resultado * i;
     }
 
-    printf("RESULTADO DA SUBTRACAO:= %.0lf\n",resultado);
+    printf("%.0lf\n",resultado);
 
     }
