@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1572531905 source:c:\users\facom\documents\codeblocks\uniao\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
