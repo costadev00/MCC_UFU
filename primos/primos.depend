@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1571955531 source:c:\users\mathe\mcc_ufu\primos\main.c
-	<stdio.h>
-	<stdlib.h>
-	<math.h>
-

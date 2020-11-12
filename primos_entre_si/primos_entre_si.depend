@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1570736393 source:c:\users\facom\documents\codeblocks\primos_entre_si\main.c
-	<stdio.h>
-	<stdlib.h>
-
-1571361985 source:c:\users\mathe\mcc_ufu\primos_entre_si\main.c
-	<stdio.h>
-	<stdlib.h>
-
